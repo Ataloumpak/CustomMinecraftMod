@@ -9,14 +9,18 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  */
 public class ModBlocks {
 
-    @GameRegistry.ObjectHolder("modtut:firstblock")
-    public static FirstBlock firstBlock = new FirstBlock();
+    //@GameRegistry.ObjectHolder("examplemod:firstblock")
+    //public static FirstBlock firstBlock = new FirstBlock();
 
-    @GameRegistry.ObjectHolder("modtut:datablock")
-    public static DataBlock dataBlock = new DataBlock();
+    @GameRegistry.ObjectHolder("examplemod:secondblock")
+    @GameRegistry.ItemStackHolder("examplemod:secondblock")
+    public static SecondBlock secondBlock = new SecondBlock();
+
+    //@GameRegistry.ObjectHolder("examplemod:datablock")
+    //public static DataBlock dataBlock = new DataBlock();
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-        dataBlock.initModel();
+        //dataBlock.initModel();
     }
 }
