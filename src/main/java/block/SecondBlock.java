@@ -45,7 +45,7 @@ public class SecondBlock extends Block{
     public void onBlockClicked(World worldIn, BlockPos pos, EntityPlayer playerIn)
     {
         super.onBlockClicked(worldIn, pos, playerIn);
-        pos.add(1,0,0);
+        pos.add(0,2,0);
     }
 
     @Override

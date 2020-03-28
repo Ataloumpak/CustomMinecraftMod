@@ -9,8 +9,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  */
 public class ModBlocks {
 
-    //@GameRegistry.ObjectHolder("examplemod:firstblock")
-    //public static FirstBlock firstBlock = new FirstBlock();
+    @GameRegistry.ObjectHolder("examplemod:firstblock")
+    @GameRegistry.ItemStackHolder("examplemod:firstblock")
+    public static FirstBlock firstBlock = new FirstBlock();
 
     @GameRegistry.ObjectHolder("examplemod:secondblock")
     @GameRegistry.ItemStackHolder("examplemod:secondblock")

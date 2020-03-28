@@ -1,12 +1,6 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle":"examplemod:blocks/firstblock_basic",
-    "north":"examplemod:blocks/firstblock_basic",
-    "south":"examplemod:blocks/firstblock_basic",
-    "east":"examplemod:blocks/firstblock_basic",
-    "west":"examplemod:blocks/firstblock_basic",
-    "up":"examplemod:blocks/firstblock_basic",
-    "down":"examplemod:blocks/firstblock_basic"
+    "all": "examplemod:blocks/firstblock_basic"
   }
 }
